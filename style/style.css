@@ -125,7 +125,9 @@
 }
 
 
-
+h1, h2, h3{
+    margin: 0;
+}
 .container{
     max-width: 1280px;
     margin: 0 auto;
@@ -162,4 +164,217 @@ ul, ol{
     font-size: 16px;
     letter-spacing: 0.02em;
     color: #000;
+}
+
+.headar-contact{
+    display: flex; 
+}
+.social>a>img{
+    margin-right: 10px;
+}
+.tel>a{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+.tel{
+    display: flex;
+    flex-direction: column;
+}
+.h1{
+    font-family: "Inter", sans-serif;
+font-weight: 900;
+font-size: 52px;
+line-height: 119%;
+color: #000;
+}
+.p{
+    font-family: "Inter", sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 160%;
+color: #000;
+}
+.header-buttom{
+    position: relative;
+    padding-bottom: 151px;
+}
+
+.header-buttom>img{
+    position: absolute;
+    right: -123px;
+    top: 114px;
+
+}
+.header-buttom>p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000;
+    max-width: 600px;
+}
+.header-buttom>h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 119%;
+    color: #000;
+    padding-top: 114px;
+    max-width: 671px;
+}
+.header-buttom>button{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 117%;
+    text-align: center;
+    color: #fff;
+    background-color: #F50E30;
+    border: 0;
+    padding: 18px 54px;
+    border-radius: 8px;
+    width: 312px;
+    height: 64px;
+}
+.buying-help{
+    padding-top: 129px;
+    padding-bottom: 119px;
+    background: #F4F6F8;
+    position: relative;
+}
+
+.hh{
+    margin: 0 auto;
+    max-width: 1014px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 123%;
+    text-align: center;
+    color: #000;
+}
+.pp{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 133%;
+    text-align: center;
+    color: #000;
+}
+.bb{
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+    background-color: #F50E30;
+    border: 0;
+    border-radius: 8px;
+    padding: 14px 40px;
+    width: 235px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.item{
+    background: #F4F6F8;
+}
+.item1{
+    display: flex;
+    justify-content: space-between;
+}
+.pr{
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 20px;
+    max-width: 411px;
+    max-height: 264px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 24px 77px 85px 32px;
+}
+.pr>h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 122%;
+    color: #000;
+}
+.pr>p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: rgba(0, 0, 0, 0.8);
+    max-width: 302px;
+}
+.pr>img{
+    position: absolute;
+    right: 30px;
+    top: 164px;
+}
+.cc{
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 20px;
+    max-width: 409px;
+    max-height: 264px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 21px 71px 91px 37px;
+}
+.cc>h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 122%;
+    color: #000;
+}
+.cc>p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: rgba(0, 0, 0, 0.8);
+    max-width: 301px;
+}
+.cc>img{
+    position: absolute;
+    right: 11px;
+    top: 144px;
+}
+.mon{
+    box-sizing: border-box;
+    position: relative;
+    border-radius: 20px;
+    max-width: 411px;
+    max-height: 264px;
+    box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    padding: 21px 78px 91px 32px;
+}
+.mon>h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 122%;
+    color: #000;
+}
+.mon>p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: rgba(0, 0, 0, 0.8);
+    max-width: 301px;
+}
+.mon>img{
+    position: absolute;
+    right: 16px;
+    top: 120px;
 }
